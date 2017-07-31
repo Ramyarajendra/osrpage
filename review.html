@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=UnifrakturCook:700" rel="stylesheet"> !-->
+      <!--Import materialize.css-->
+     <!-- <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>!-->
+      <title>Review Page</title>
+      <link rel="stylesheet" type="text/css" href="menu.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	  <link rel="stylesheet" href="new2.css">
+    </head>
+
+    <body>
+      <!--Import jQuery before materialize.js-->
+     <!-- <ul class="dropdown-content">
+        <li><a href="#!">one</a></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+      </ul>
+    <nav>
+      <ul>
+        <li><a href="default.asp">Home</a></li>
+        <li><a href="news.asp">About Us</a></li>
+        <li><a class="dropdown" href="contact.asp">Menu</a></li>
+        <li><a href="about.asp">Contact Us</a></li>
+        <li><a href="default.asp">Gallery</a></li>
+        <li><a href="default.asp">Reviews</a></li>
+      </ul> 
+    </nav>-->
+    <div class="container">
+      <a href="#home">HOME</a>
+      <a href="#news">ABOUT US</a>
+      <div class="dropdown">
+        <button class="dropbtn">MENU &#x25BE;</button>
+        <div class="dropdown-content">
+          <a href="#">Andhra Delicacies</a>
+          <a href="#">Mangalorean Cuisine</a>
+          <a href="#">Tandoor Delicacies</a>
+          <a href="#">Indian Breads</a>
+          <a href="#">North Indian</a>
+          <a href="#">Chineese</a>
+          <a href="#">Royal Indulgence</a>
+        </div>
+      </div>
+      <a href="#news">CONTACT US</a> 
+      <a href="#news">GALLERY</a>
+      <a href="#news">REVIEW</a>
+    </div>
+	<h1 style="color:green">REVIEW US</h1>
+	<h3 style="color:#6495ED; margin-left:10px">Kindly give your feedback</h3>
+ <form style="margin-left:10px">
+     Enter your name:<input type="text" name="name"/>
+</form><br>
+	<div id="TextEdit" class="editable">
+    <div id="requestInner" style="border:solid 1px black; 
+		margin-left:10px; margin-right:50px;height:200px;overflow:auto;cursor:text"
+
+            contenteditable="true">
+	<b>Please enter your feedback here:</b>
+	<br /><hr /> 
+      </div>
+</div><br>
+	
+<fieldset class="rating">
+    <legend style="margin-left:10px">Please rate:</legend>
+    <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Rocks!"> 5 stars</label>
+    <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Pretty good"> 4 stars</label>
+    <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="good"> 3 stars</label>
+    <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Kinda bad"> 2 stars</label>
+    <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="bad"> 1 star</label><br/>
+</fieldset><br><br><br><br>
+<div>
+<form>
+   <input style="margin-left:10px" type="submit" name="button"/>
+</form>
+</div>
+ 
+	</body>
+	</html>
+	
